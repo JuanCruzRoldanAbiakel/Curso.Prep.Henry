@@ -1,0 +1,36 @@
+Variables: Las variables son espacios en memoria, que guardan una informacion. Hay muchas clases de variables
+que varia, dependiendo la informaccion que se aloja en su interior. Por ejemplo, escomo una caja donde podes poner
+cualquier tipo de cosas
+
+
+Strings:Son un tipo de variables que siempre se le asignan un tipo de informacion como por ejemplo, cualquier 
+palabra o valor numerico , entre comillas
+
+
+Funciones: Una funcion tiene en su interior una serie de instrucciones con un objetivo, puede ser
+delaraciones de variables, imprimir texto en la pantalla, etc. Su objetivo es tratar de no 
+repetir codigo que ya hallamos escrito.
+
+
+Argumentos: Son las variables declaradas entre los parentesis de la funcion, que podemos inicializarlas una vez
+iniciamos esa funcion solamente, pero si no la iniciamos e iniciamos el resto del codigo no se ejecutarán
+
+
+Return: Es una palabra que se le asigna la funcion de retomas, ejecutar o imprimir todo el codigo dento de una
+funcion en particular
+
+
+If y Else: Basicamente, lo que quiere decir en lenguaje humano, es "Pasa esto o pasa lo otro", le da a elegir
+a la maquina, dependiendo le la condicion que posea, va a elegir entrela funcion "a" o la funcion "b"
+
+
+
+Valores Booleanos (True y False): Estos valores se pueden interpretar como si fueran un interruptor, mientras
+tenga el valor true, funcionaran pero cuando tenga el valor false, no lo haran, aunque en algunas ocasiones podrian
+invertirse los roles.
+
+
+
+
+
+
