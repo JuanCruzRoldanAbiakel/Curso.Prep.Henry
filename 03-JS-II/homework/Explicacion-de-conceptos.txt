@@ -1,0 +1,15 @@
+Ciclos For: El for es uno de los ciclos que se delitiman, por su condicion que llevan, se puede declarar y delimitar
+la variable declarada dentro del for, que se usa como una variable para contar, hasta que deja de cumplirse la
+condicion.
+
+
+&&: Significa "y", su objetivo es unir y cumplir las condiciones que se enlanza por ejemplo "que se cumpla la condicion 1
+&& (Y) la condicion 2"
+
+
+||: Significa "o", su objetivo es unir y verificar que cumpla al menos algunas de las condiciones que enlaza, por ejemplo
+"quese cumpla la condicion 1 ||(O)  la condicion 2"
+
+
+!: Quiere decir "distinto a" tal variable, su objetivo es que una variable sea distinta a la otra variable que compara
+por ejemplo "que 1 + 2 == 0!", lo que quiere decir que la suma de 1 + 2, el resultado sea distinto a 0. 

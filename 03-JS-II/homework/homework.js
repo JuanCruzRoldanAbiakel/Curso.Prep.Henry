@@ -5,6 +5,15 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
+  if (x > y){
+    return x;
+  }
+  else if (y > x){
+    return y;
+  }
+  else {
+    return x;
+  }
 }
 
 function saludo(idioma) {
@@ -14,18 +23,38 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  if (idioma == "aleman"){
+    return "Guten Tag!";
+  }
+  else if(idioma == "mandarin"){
+   return "Ni Hao!";
+  }
+  else if (idioma == "ingles"){
+    return "Hello!";
+  }
+  else {
+    return "Hola!";
+  }
 }
 
 function esDiezOCinco(numero) {
     // Devuelve "true" si "numero" es 10 o 5
     // De lo contrario, devuelve "false"
     // Tu código:
+    if (numero == 10 || numero == 5){
+      return true;
+    }
+    return false;
 }
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
+  if(numero < 50 && numero > 20){
+    return true;
+  }
+  return false;
 }
 
 function esEntero(numero) {
@@ -36,6 +65,11 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
+  var resultado = Math.floor(numero); 
+  if(numero != resultado){
+    return false;
+  }
+  return true;
 }
 
 function fizzBuzz(numero) {
@@ -43,6 +77,18 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
+  if (numero % 3 == 0 && numero % 5 == 0){
+    return "fizzbuzz";
+  }
+  else if (numero % 5 == 0){
+    return "buzz";
+  }
+  else if (numero % 3 == 0){
+    return "fizz";
+  }
+  else {
+    return numero;
+  }
 }
 
 function esPrimo(numero) {
@@ -51,6 +97,15 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
+   if (numero < 2){
+      return false;
+   }
+   for (var i = 2; i < numero; i++){
+    if(numero % i != 0){
+      return  true;
+    }
+    return false;
+  }
 }
 
 
