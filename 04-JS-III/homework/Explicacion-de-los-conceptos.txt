@@ -1,0 +1,2 @@
+Arrays o Arreglo: Vendria hacer una lista de elementos, separados por comas, los elementos que contiene un arreglo,
+pueden serde multiples variables, string, enteras, booleanas, inclusive otros arreglos, funciones, null, undefined, etc.
