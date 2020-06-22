@@ -1,0 +1,7 @@
+Prototype: La propiedad Objeto.prototype representa al objeto prototipo de Objeto. Todos los objetos de Javascripts,
+provienen de Object; todos los objetos heredan métodos y propiedades de Object.prototype, aunque puede ser sobrecargados.
+
+
+Constructor de Clases: Las clases son "funciones especiales", como las expresiones de funciones yw declaraciones de
+funciones, la sintaxis de una clase tiene dos componentes: Expresiones de clases y ddeclaraciones de clases. Las clases
+de JavaScript, proveen una sintaxis mucho más clara y simple para crear objetos y lidiarcon la herencia.
